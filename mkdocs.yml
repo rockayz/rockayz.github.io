@@ -1,0 +1,30 @@
+site_name: 个人网站
+
+theme: 
+  name: material
+
+  palette:
+    - scheme: default        # 改变主题颜色
+      toggle: 
+        icon: material/brightness-7
+        name: 夜间模式
+    
+    - scheme: slate
+      toggle: 
+        icon: material/brightness-4        
+        name: 日间模式
+
+  features: 
+    - navigation.top         # 返回顶部
+    - navigation.tabs        # 导航选项卡
+    - navigation.tabs.sticky # 保持导航选项卡可见
+    - navigation.indexes
+
+  language: zh
+
+nav:
+  - 导航: Navigation/navigation.md
+  - 编程:
+    - JavaScript: 
+      - 基础语法: Programming/JavaScript/Basic grammar.md
+  
